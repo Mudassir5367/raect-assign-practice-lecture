@@ -9,11 +9,23 @@ export default function ArrayUsestate() {
     const clearData = ()=>{
         setClear([])
     }
+    const removeData = (id) =>{
+        console.log(id);
+        const newData = clear.filter((value)=>{
+            return value.id !== id;
+        })
+        setClear(newData)
+    }
   return (
     <>
       {
-        clear.map((x)=><h1 key={x.id}>{x.fName}</h1>
+        clear.map((x)=>{
+        return(
+            <h1 key={x.id}>{x.fName}
+            <button onClick = {() => {removeData(x.id)}}>remove</button>
+            </h1>
         )
+      })
       }
       <button onClick = {clearData}>Clear</button>
     </>
