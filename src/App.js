@@ -1,6 +1,7 @@
 import  './App.css';
 import React from 'react'
-import ArrayUsestate from './components/ArrayUsestate';
+// import ArrayUsestate from './components/ArrayUsestate';
+import UseEffect from './components/UseEffect';
 // import Child from './components/Child';
 // import ConditionalRandering from './components/ConditionalRandering';
 
@@ -19,7 +20,8 @@ function App() {
       <div>
    {/* <Child obj1 = {obj}/> */}
    {/* <ConditionalRandering obj1 = {obj} obj3 = {obj2} /> */}
-   <ArrayUsestate/>
+   {/* <ArrayUsestate/> */}
+   <UseEffect/>
 
       </div>
     </>
