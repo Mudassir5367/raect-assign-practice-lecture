@@ -3,7 +3,8 @@ import React from 'react'
 // import ArrayUsestate from './components/ArrayUsestate';
 // import UseEffect from './components/UseEffect';
 // import UseReducer from './components/UseReducer';
-import DataList from './components/form/DataList';
+// import DataList from './components/form/DataList';
+import Comp1 from './components/useContext/Comp1';
 // import Child from './components/Child';
 // import ConditionalRandering from './components/ConditionalRandering';
 
@@ -25,7 +26,8 @@ function App() {
    {/* <ArrayUsestate/> */}
    {/* <UseEffect/> */}
    {/* <UseReducer/> */}
-   <DataList/>
+   {/* <DataList/> */}
+   <Comp1 data = 'Props is passing'/>
 
       </div>
     </>
