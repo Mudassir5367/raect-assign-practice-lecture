@@ -7,7 +7,7 @@ export default function Comp3() {
   return (
     <>
     <h1>{receiveData}</h1>
-      <h1>Hello from Component 3 </h1>
+    <h1>Hello from Component 3 </h1>
     </>
   )
 }

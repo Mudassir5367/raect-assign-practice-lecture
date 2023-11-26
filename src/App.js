@@ -5,6 +5,7 @@ import React from 'react'
 // import UseReducer from './components/UseReducer';
 // import DataList from './components/form/DataList';
 import Comp1 from './components/useContext/Comp1';
+import JsonFectingAxios from './components/data-fetch-axios/JsonFectingAxios';
 // import Child from './components/Child';
 // import ConditionalRandering from './components/ConditionalRandering';
 
@@ -28,6 +29,7 @@ function App() {
    {/* <UseReducer/> */}
    {/* <DataList/> */}
    <Comp1 data = 'Props is passing'/>
+   <JsonFectingAxios/>
 
       </div>
     </>
