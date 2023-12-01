@@ -1,5 +1,5 @@
 import React, { createContext } from 'react'
-import Comp2 from './Comp2'
+import Comp3 from './Comp3';
 
 const Data = createContext()
  function Comp1() {
@@ -7,8 +7,7 @@ const Data = createContext()
   return (
     <>
     <Data.Provider value = {'Data is accessed from Comp1 using Context'}>
-      <Comp2 />
-
+    <Comp3 />
     </Data.Provider>
     </>
   );
