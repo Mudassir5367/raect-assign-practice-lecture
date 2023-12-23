@@ -1,11 +1,12 @@
 import  './App.css';
 import React from 'react'
+import Parent from './components/leftingState/Parent';
 // import ArrayUsestate from './components/ArrayUsestate';
 // import UseEffect from './components/UseEffect';
 // import UseReducer from './components/UseReducer';
 // import DataList from './components/form/DataList';
 // import Comp1 from './components/useContext/Comp1';
-import CounterComponent from './components/custom-hook/CustomComp';
+// import CounterComponent from './components/custom-hook/CustomComp';
 // import { UseCounter } from './components/custom-hook/CustomHook';
 // import CompA from './components/useContext-child-to-parent/CompA';
 // import JsonFectingAxios from './components/data-fetch-axios/JsonFectingAxios';
@@ -34,7 +35,8 @@ function App() {
    {/* <Comp1 data = 'Props is passing'/> */}
    {/* <JsonFectingAxios/> */}
    {/* <CompA/> */}
-   <CounterComponent/>
+   {/* <CounterComponent/> */}
+   <Parent/>
 
       </div>
     </>
